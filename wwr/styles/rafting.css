@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Mulish:ital@1&family=Sedgwick+Ave+Display&display=swap');
+
+:root {
+    --primary-color: #07070A;
+    --secondary-color: #FEFFFE;
+    --accent1-color: #3E78B2;
+    --accent2-color: #004BA8;
+
+    --heading-font: 'Caveat', serif;
+    --paragrpah-font: 'Mulish', serif;
+
+    --nav-background-color: #FEFFFE;
+    --nav-link-color: #004BA8;
+    --nav-hover-link-color: #3E78B2;
+    --nav-hover-background-color: #07070A;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+}
+
+h1 {
+    position: absolute;
+}
+
+article {
+    position: absolute;
+    background-color: var(--accent1-color);
+}
+
+article img {
+    float: right;
+}
+
+p {
+    font-family: var(--paragrpah-font);
+}
+
+.hero:first-child {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+div hero {
+    position: relative;
+}
