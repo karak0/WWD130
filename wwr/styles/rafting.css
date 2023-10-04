@@ -171,6 +171,7 @@ header {
 
 footer {
     margin-top: 80px;
+    padding: 20px;
     border-top: 1px solid #000;
     display: grid;
     grid-template-columns: 70% 1fr;
