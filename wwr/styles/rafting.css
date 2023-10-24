@@ -276,3 +276,32 @@ button:hover {
     min-width: 100%;
     max-width: 100%;
 }
+
+.tripshero {
+    max-width: 100%;
+    object-fit: fill;
+}
+
+.divider {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: 10px solid darkgray;
+    text-align: center;
+}
+
+.adventures {
+    display: grid;
+    grid-template-columns: 50%, 50%;
+    margin-top: 60px;
+}
+
+.table {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.detailed {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
