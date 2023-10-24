@@ -184,7 +184,7 @@ footer {
 
 .grid {
     display: grid;
-    grid-template-columns: 2fr, 2fr, 1fr;
+    grid-template-columns: 2fr 2fr 1fr;
 }
 
 .employee {
@@ -209,7 +209,7 @@ footer {
 
 form {
     width: 250px;
-    margin: 0, auto;
+    margin: 0 auto;
     padding: 20px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
@@ -277,11 +277,6 @@ button:hover {
     max-width: 100%;
 }
 
-.tripshero {
-    max-width: 100%;
-    object-fit: fill;
-}
-
 .divider {
     width: 100%;
     padding-top: 60px;
@@ -292,7 +287,7 @@ button:hover {
 
 .adventures {
     display: grid;
-    grid-template-columns: 50%, 50%;
+    grid-template-columns: 2fr 1fr;
     margin-top: 60px;
 }
 
@@ -304,4 +299,79 @@ button:hover {
 .detailed {
     grid-column-start: 2;
     grid-column-end: 3;
+}
+
+.homehero img {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+    margin-right: 0px;
+    z-index: -1;
+    width: 100%;
+    max-height: 250px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.homehero h1 {
+    margin-top: 150px;
+}
+
+.homegrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.purpose .offer {
+    padding: 20px;
+}
+
+.purpose h3, .offer h3 {
+    border-bottom: solid;
+    margin-left: 30px;
+}
+
+.purpose img, .offer img {
+    width: 130px;
+    height: auto;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    margin: 15px;
+}
+
+.purposebody, .offerbody {
+    display: grid;
+    grid-template-columns: 1fr 150px;
+}
+
+.purpose p, .offer p {
+    padding: 30px;
+}
+
+.offer {
+    grid-column-start: 1;
+}
+
+.newsletter {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+}
+
+.fullname, .email {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.subscribe {
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.subscribe {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-flow: row-reverse;
+}
+
+.subscribe label {
+    padding-left: 10px;
 }
